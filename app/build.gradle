@@ -4,6 +4,10 @@ android {
     compileSdkVersion 24
     buildToolsVersion "23.0.3"
 
+    aaptOptions{
+        cruncherEnabled = false
+    }
+
     defaultConfig {
         applicationId "com.example.android.pets"
         minSdkVersion 15
